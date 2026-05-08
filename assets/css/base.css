@@ -2,7 +2,6 @@
   max-width: 60vw;
   text-align: center;
   margin: 0 auto;
-
 }
 
 .postHeader .postTitle {
@@ -38,39 +37,36 @@
 .postContent {
   margin: 0 auto;
   max-width: min(80vw, 80ch);
+}
 
-  & h1,
-  & h2,
-  & h3,
-  & h4,
-  & h5,
-  & h6 {
-    font-family: "Oswald";
-    line-height: 1.2;
-  }
+.postContent h1,
+.postContent h2,
+.postContent h3,
+.postContent h4,
+.postContent h5,
+.postContent h6 {
+  font-family: "Oswald";
+  line-height: 1.2;
+}
 
+.postContent p {
+  font-family: "IBM Plex Serif";
+  font-size: 1.6rem;
+  line-height: 1.6;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
 
-  & p {
-    font-family: "IBM Plex Serif";
+.postContent .postReturnHome {
+  text-align: left;
+  font-family: monospace;
+  font-size: 1.4rem;
+  color: black;
+}
 
-    font-size: 1.6rem;
-    line-height: 1.6;
-
-    overflow-wrap: break-word;
-    hyphens: auto;
-  }
-
-  & .postReturnHome {
-    text-align: left;
-    font-family: monospace;
-    font-size: 1.4rem;
-    color: black;
-  }
-
-  & .postFeelingLucky {
-    text-align: right;
-    font-family: monospace;
-    font-size: 1.4rem;
-    color: black;
-  }
+.postContent .postFeelingLucky {
+  text-align: right;
+  font-family: monospace;
+  font-size: 1.4rem;
+  color: black;
 }
