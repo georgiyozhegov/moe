@@ -1,0 +1,9 @@
+title: G—O
+description: |
+  Георгий Ожегов излагает свои мысли. Изучает что-то новое. Делится опытом.
+  И пишет интересные посты о книжках, компиляторах, английском и многом другом.
+permalink: pretty
+collections:
+  books:
+    output: true
+    permalink: /:collection/:name
