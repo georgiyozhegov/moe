@@ -1,5 +1,5 @@
 ---
-layout: book
+layout: post
 title: Красный дракон — моё впечатление о книге
 date: 2026-04-15
 pretty_date: 15 апреля 2026
